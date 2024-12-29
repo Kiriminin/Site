@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK NEWS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main-description.css">
+    <link rel="stylesheet" href="card-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg navbar-dark custom-navbar" data-aos="fade-down" style="background-color: #000000;">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="index.html" class="logo-link" style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="logo/logo.png" alt="Logo" style="height: 80px;">
+                    <span class="navbar-brand logo-name" style="font-size: 2rem; color: rgb(237, 237, 237); margin-left: 10px;">UK Corporation</span>
+                </a>
+            </div>
+    
+            <!-- Кнопка бургер-меню справа -->
+            <button class="custom-button navbar-toggler d-flex d-lg-none ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Кнопка Login на маленьких экранах, левее бургер-меню -->
+            <a href="login-pages.html" class="btn-primary ms-3 d-lg-none">
+                Login
+                <span class="arrow-wrapper">
+                    <span class="arrow"></span>
+                </span>
+            </a>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="news-pages.html">NEWS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="changelog-pages.html">CHANGELOG</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects-pages.html">PROJECTS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="staff-pages.html">STAFF</a></li>
+                    <li class="nav-item"><a class="nav-link" href="upport-pages.html">SUPPORT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="jobs-pages.html">JOBS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="socials-pages.html">SOCIALS</a></li>
+                </ul>
+    
+                <!-- Кнопка Login для больших экранов -->
+                <a href="login-pages.html" class="btn-primary d-none d-lg-inline-flex align-items-center ms-auto">
+                    Login
+                    <span class="arrow-wrapper">
+                        <span class="arrow"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="logo-description-block" style="background-image: url('main-photo/main-photo-news.png');">
+            <div class="logo-description-container" data-aos="fade-up">
+                <img src="logo/logo.png" alt="img" class="logo-description">
+                <h1 class="title-description" style="font-size: 2rem; color:#ffffff"> UK News</h1>
+                <div class="company-info">
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="card news-card">
+                        <img src="news/news-card-1.png" class="card-img-top" alt="News 1">
+                        <div class="card-body">
+                            <h5 class="card-title">UK Corp. Innovation Hub</h5>
+                            <p class="card-text">We develop cutting-edge solutions that drive growth and industry transformation.
+                             Our UK office is a center for ideas and technology.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="card news-card">
+                        <img src="news/news-card-2.png" class="card-img-top" alt="News 2">
+                        <div class="card-body">
+                            <h5 class="card-title">UK Corp. Trusted Partnerships </h5>
+                            <p class="card-text">We collaborate with leading companies and organizations in the 
+                            UK to build a sustainable future and achieve ambitious goals together. </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="card news-card">
+                        <img src="news/news-card-3.png" class="card-img-top" alt="News 3">
+                        <div class="card-body">
+                            <h5 class="card-title">UK Corp. Local Impact</h5>
+                            <p class="card-text">Our work makes a difference in local communities by supporting 
+                            initiatives in education, healthcare, and environmental sustainability.
+
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+    </main>
+
+    <footer data-aos="fade-up" class="bg-dark text-center text-white py-4">
+        <div class="copyright">
+            <p>&copy; 2024 UK Corporation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 700, 
+            easing: 'ease-in-out', 
+            once: true
+        });
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

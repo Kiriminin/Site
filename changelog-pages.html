@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Corp. CHANGELOGS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main-description.css">
+    <link rel="stylesheet" href="card-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="main-changelog.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg navbar-dark custom-navbar" data-aos="fade-down" style="background-color: #000000;">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="index.html" class="logo-link" style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="logo/logo.png" alt="Logo" style="height: 80px;">
+                    <span class="navbar-brand logo-name" style="font-size: 2rem; color: rgb(237, 237, 237); margin-left: 10px;">UK Corporation</span>
+                </a>
+            </div>
+
+            <!-- Кнопка бургер-меню справа -->
+            <button class="custom-button navbar-toggler d-flex d-lg-none ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Кнопка Login на маленьких экранах, левее бургер-меню -->
+            <a href="login-pages.html" class="btn-primary ms-3 d-lg-none">
+                Login
+                <span class="arrow-wrapper">
+                    <span class="arrow"></span>
+                </span>
+            </a>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="news-pages.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="changelog-pages.html">Changelog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects-pages.html">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="staff-pages.html">Staff</a></li>
+                    <li class="nav-item"><a class="nav-link" href="upport-pages.html">Support team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="jobs-pages.html">Jobs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="socials-pages.html">Social</a></li>
+                </ul>
+    
+                <!-- Кнопка Login для больших экранов -->
+                <a href="login-pages.html" class="btn-primary d-none d-lg-inline-flex align-items-center ms-auto">
+                    Login
+                    <span class="arrow-wrapper">
+                        <span class="arrow"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="logo-description-block" style="background-image: url('main-photo/main-photo-changelog.png');">
+            <div class="logo-description-container" data-aos="fade-up">
+                <img src="logo/logo.png" alt="img" class="logo-description">
+                <h1 class="title-description">UK Changelog</h1>
+                <div class="company-info">
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-changelog" data-aos="fade-right">
+            <div class="card-changelog-header">
+                <h2>DevNotes</h2>
+                <span class="date-changelog">01/12/2024</span>
+            </div>
+            <div class="card-changelog-content">
+                <p>
+                    Discover the ideas, breakthroughs, and best practices that drive our development process and shape our solutions.
+                </p>
+            </div>
+        </div>
+    
+        <div class="card-changelog" data-aos="fade-right">
+            <div class="card-changelog-header">
+                <h2>NEW UPDATE</h2>
+                <span class="date-changelog">30/11/2024</span>
+            </div>
+            <div class="card-changelog-content">
+                <p>
+                    <h3>New Update: Bug Fixes & Enhancements</h3>
+                    We’ve squashed bugs and fine-tuned features to ensure everything runs seamlessly!
+                </p>
+            </div>
+        </div>
+    
+        <div class="card-changelog" data-aos="fade-right">
+            <div class="card-changelog-header">
+                <h2>Patch Notes</h2>
+                <span class="date-changelog">30/11/2024</span>
+            </div>
+            <div class="card-changelog-content">
+                <p>
+                    <h3>Patch Notes Overview:</h3>
+                    Patch notes are an essential part of video games and software updates. 
+                    They provide users with detailed information about changes made to the game or application, helping players stay 
+                    informed about new features, bug fixes, 
+                    and balance adjustments. Whether it’s a small update or a major patch, patch notes allow developers to communicate 
+                    with the community and ensure a better overall experience for players.
+                </p>
+        </div>
+        
+
+    </main>
+
+    <footer data-aos="fade-up" class="bg-dark text-center text-white py-4">
+        <div class="copyright">
+            <p>&copy; 2024 UK Corporation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 700, 
+            easing: 'ease-in-out', 
+            once: true
+        });
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

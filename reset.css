@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Panton Narrow';
+    src: url('font/PantonNarrow-Trial-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Medium';
+    src: url('font/HelveticaNeue-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url('font/HelveticaNeue-Light.otf') format('opentype');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: white;
+}

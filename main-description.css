@@ -1,0 +1,44 @@
+.logo-description-block {
+    background-image: url('main-photo/main-photo.png'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+}
+
+.logo-description-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Helvetica Neue Medium', sans-serif;
+}
+
+.logo-description {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.title-description {
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Panton Narrow', sans-serif;
+}
+
+.subtitle-description {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.company-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.company-info p {
+    font-size: 16px;
+    margin-top: 0;
+}
